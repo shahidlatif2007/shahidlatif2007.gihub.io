@@ -1,6 +1,6 @@
 <html>
    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# thetestasdf: http://ogp.me/ns/fb/thetestasdf#">
-      <title>Test App</title>
+      <title><?php echo  $_GET["title"]?></title>
       <meta property="fb:app_id" content="1599924876950868" />
       <meta property="al:android:package" content="com.vpaas.dhott.dubai" />
       <meta property="al:android:app_name" content="Test App" />
